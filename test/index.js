@@ -1,5 +1,5 @@
 const fetcher = new (require('../src/index'))();
 
 (async () => {
-    console.log(await fetcher.fetch('i7-12700k'));
+    console.log(await fetcher.fetch('i9-10850k'));
 })();
